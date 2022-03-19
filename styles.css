@@ -1,0 +1,125 @@
+body {
+  height: 100vh;
+  /* overflow: hidden; */
+  background: #2c3e50;
+  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
+  background: linear-gradient(to right, #3498db, #2c3e50);
+}
+
+div.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  background-color: rgb(238, 233, 215);
+  padding: 20px;
+  padding-top: 10px;
+  text-align: center;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  height: 60%;
+}
+div.msg {
+  font-size: large;
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  position: absolute;
+  left: 50%;
+  top: 14%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  background-color: rgb(0 74 128);
+  padding: 20px;
+  padding-top: 10px;
+  text-align: center;
+  box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 20%);
+  height: 2%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 90%;
+}
+div.search {
+  width: 40%;
+  left: 30%;
+  position: absolute;
+  background-color: rgb(238, 233, 215);
+  text-align: -webkit-center;
+}
+form.search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 5%;
+  width: 90%;
+}
+input.serach-key{
+  background-color: #cccccc;
+  border: none;
+  height: 40px;
+  width: 75%;
+  padding: 6px;
+  border-radius: 10px 100px / 120px;
+  margin: 2px;
+  outline-style: none;
+}
+.input-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+input {
+  background-color: #cccccc;
+  border: none;
+  height: 40px;
+  width: 75%;
+  padding: 6px;
+  border-radius: 10px 100px / 120px;
+  margin-bottom: 10px;
+  outline-style: none;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+label {
+  font-family: cursive;
+  font-size: larger;
+}
+input[type="submit"] {
+  background-color: #004a80;
+  border-radius: 10px 100px / 120px;
+  border: none;
+  height: 30px;
+  width: 30%;
+  color: white;
+  margin-bottom: 0;
+  min-width: max-content;
+}
+#pk {
+  background-color: rgb(0, 23, 128);
+  border-radius: 10px 100px / 120px;
+  border: none;
+  height: 30px;
+  width: 5%;
+  color: white;
+}
+input[type="text"].search {
+  width: 60%;
+  background-color: #8efc93;
+}
+h4 {
+  margin: 10px;
+  font-family: -webkit-pictograph;
+  font-size: small;
+  color: cornflowerblue;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
